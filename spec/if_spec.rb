@@ -45,3 +45,14 @@ describe "Tool" do
     expect(@my_sword.short). to eq("a great sword")
   end
 end
+
+
+describe "Furniture" do
+  before(:each) do
+    @my_container = Furniture.new({
+      :name => "table",
+      :short_description => "es una buena mesa",
+      :on => []
+      })
+  end
+end
