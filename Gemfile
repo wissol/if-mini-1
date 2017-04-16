@@ -4,3 +4,4 @@ source 'https://rubygems.org'
 
 # Your gem(s)!
 gem 'rspec', "~> 3.0"
+gem 'guard-rspec', require: false
